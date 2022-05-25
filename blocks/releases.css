@@ -1,0 +1,5 @@
+.releases {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 3vw 6vw 3vw;
+}
