@@ -12,15 +12,16 @@
   justify-content: center;
   font-family: Anton;
   font-size: 20px;
-  
 }
 
 .nav__item {
-  
   transition: all .4s cubic-bezier(.47,1.64,.41,.8);
   position: relative;
   border-bottom: 2px solid black;
   border-top: 2px solid black;
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
 }
 
 .nav__item:hover {

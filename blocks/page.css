@@ -10,19 +10,19 @@
 }
 
 
-.page__events-button-wrapper{
-  background: rgb(255, 255, 255, 0.3);
+.page__events-button{
+  border: none;
+  background: rgb(255, 255, 255, 0.9);
   border-radius: 50%;
   position: fixed;
   display: flex;
-  height: 80px;
-  width: 80px;
   bottom: 25px;
   left: 25px;
   height: 55px;
   width: 55px;
 }
-.page__events-button {
+
+.page__events-button-icon {
   margin: auto;
   position: relative;
   width: 60%;

@@ -1,0 +1,28 @@
+.items {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 3vw 6vw 3vw;
+  
+}
+
+.item {
+  display: grid;
+  grid-template-columns: minmax(200px, 300px) auto;
+  border-bottom: 2px solid #000;
+  padding: 3vw 0;
+}
+
+.item__image {
+  width: 100%;
+}
+
+.item__details {
+  padding: 3vh;
+}
+
+@media screen and (max-width: 300px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+}

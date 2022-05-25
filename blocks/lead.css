@@ -11,7 +11,7 @@
 .lead__content{
   margin: 0;
   padding: 0;
-  background: rgba(135, 0, 0, 0.2);
+  /* background: rgba(135, 0, 0, 0.2); */
   width: 100%;
   height: 100%;
   display: flex;
@@ -31,7 +31,7 @@
   font-size: 75px;
 }
 
-.lead__title_first-letter {
+.lead__title-first-letter {
   color: #000;
   -webkit-text-stroke: 2px #fff;
 

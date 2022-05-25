@@ -4,4 +4,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 4px solid black;
+  background-position: center;
+}
+
+.cover__title {
+  margin: 0;
+  font-family: Anton;
+  -webkit-text-stroke: 2px black; /* width and color */
+  color: #fff;
+  font-size: 40px;
+}
+
+.cover__title-line {
+  margin: 0;
 }

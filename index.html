@@ -16,48 +16,54 @@
 
 <body class="body">
   <div class="page">
-    <div class="page__events-button-wrapper">
-      <img src="./images/icons/events.svg" class="page__events-button">
-    </div>
+    <button type="button" class="page__events-button">
+      <img src="./images/icons/events.svg" class="page__events-button-icon">
+    </button>
     <header class="header">
       <nav class="nav">
-        <ul class="nav__items">
-          <li class="nav__item">Releases</li>
-          <li class="nav__item">Upcoming events</li>
-          <li class="nav__item">Merch</li>
+        <div class="nav__items">
+          <a class="nav__item">Releases</a>
+          <a class="nav__item">Upcoming events</a>
+          <a href="merch.html" class="nav__item">Merch</a>
          </ul>
-        </nav>
+        </div>
     </header>
     <div class="cover">
       <section class="lead">
         <div class="lead__content">
           <h1 class="lead__title">
-            <span class="lead__title_first-letter">S</span> I L O
-            <span class="lead__title_first-letter">H</span> O R S E
-            <span class="lead__title_first-letter">H</span> E A D S
+            <span class="lead__title-first-letter">S</span> I L O
+            <span class="lead__title-first-letter">H</span> O R S E
+            <span class="lead__title-first-letter">H</span> E A D S
           </h1>
         </div>
       </section>
     </div>
   </div>
-  <main class="main">
-    <ul class="main__items">
-      <li class="main__item">
-        <img class="main__item-image" src="./images/exampleMerch/meghan-hessler-oLGDiiIFpKA-unsplash.jpg">
-        <div class="main__item-details item-details">
-          <h2 class="item-details__title">Pinata Sombrero</h2>
-          <p class="item-details__description">
-            Sombreo sombrero wihi sombrero sombrero
-            Sombreo sombrero wihi sombrero sombrero
-            Sombreo sombrero wihi sombrero sombrero
-            Sombreo sombrero wihi sombrero sombrero
-            Sombreo sombrero wihi sombrero sombrero
-            Sombreo sombrero wihi sombrero sombrero
-            Sombreo sombrero wihi sombrero sombrero
-          </p>
-          <p class="item-details__price">50000</p>
-          <button class="item-details__button"></button>
-        </div>
+  <main class="content">
+    <section class="platforms">
+      <h3 class="platforms__title">FIND US</h3>
+      <button type="button" class="platform">
+        <div class=" platform__icon platform__icon_type_spotify"></div>
+        <h4 class="platform__name">Spotify</h4>
+      </button>
+      <button type="button" class="platform">
+        <div class="platform__icon platform__icon_type_tidal"></div>
+        <h4 class="platform__name">Tidal</h4>
+      </button>
+      <button type="button" class="platform">
+        <div class="platform__icon platform__icon_type_deezer"></div>
+        <h4 class="platform__name">Deezer</h4>
+      </button>
+       </div>
+      <button type="button" class="platform">
+        <div class="platform__icon platform__icon_type_apple-music"></div>
+        <h4 class="platform__name">Apple Music</h4>
+      </button>
+    </section>
+
+    <ul class="items">
+      <li class="item">
 
       </li>
     </ul>
@@ -65,6 +71,9 @@
   <div class="events-modal">
   
   </div>
+
+    <script src="./scripts/events-modal.js"></script>
+
 </body>
 
 

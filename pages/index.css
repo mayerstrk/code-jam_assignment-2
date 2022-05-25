@@ -6,5 +6,6 @@
 @import url(../blocks/nav.css);
 @import url(../blocks/lead.css);
 @import url(../blocks/gallery.css);
-@import url(../blocks/main.css);
+@import url(../blocks/content.css);
+@import url(../blocks/platforms.css);
 @import url(../blocks/events-modal.css);

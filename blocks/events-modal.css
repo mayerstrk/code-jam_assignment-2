@@ -1,5 +1,5 @@
 .events-modal {
-  background: rgb(255, 255, 255, 0.9);
+  background: rgb(255, 255, 255, 0.98);
   position: fixed;
   height: 50vh;
   width: 40vw;
@@ -10,9 +10,21 @@
   border-radius: 3%;
   display: grid;
   grid-gap: 20px;
+  opacity: 0;
   visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  border: 2px solid #000;
 }
 
+.events-modal_visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.events-modal__title {
+
+}
 .events__modal_icon {
   
 }
+

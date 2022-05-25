@@ -1,0 +1,90 @@
+.platforms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  padding: 6vw 6vw 6vw;
+  border-bottom: 10px solid #000;
+  
+}
+
+.platforms__title {
+  margin: auto;
+  display: block;
+  transition: all .4s cubic-bezier(.47,1.64,.41,.8);
+  position: relative;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  font-family: Anton;
+  font-size: 45px;
+}
+
+.platforms__title:hover {
+  transform: scale(1.3);
+  padding: 0 20px 0;
+}
+
+
+.platform {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  transition: all .4s cubic-bezier(.47,1.64,.41,.8);
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 60px auto;
+}
+
+.platform:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.platform__icon {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60px;
+}
+
+.platform__icon:hover {
+  cursor: pointer;
+}
+
+.platform__icon_type_spotify {
+  background-image: url("../images/icons/1826182_brand_logo_network_social_spotify_icon.svg"); 
+}
+
+.platform__icon_type_tidal {
+  background-image: url("../images/icons/9080645_brand_tidal_icon.svg");
+}
+
+.platform__icon_type_deezer {
+  background-image: url("../images/icons/5017719_deezer_music_playing_streaming_icon.svg"); 
+}
+
+.platform__icon_type_apple-music {
+  background-image: url("../images/icons/1314239_app_apple_display_itunes_music_icon.svg"); 
+}
+
+.platform__name {
+  margin: 0;
+  text-align: left;
+  font-family: Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothin
+  color: #000;
+  font-size: 20px;
+  line-height: 1;
+  margin-left: 15px;
+  min-width: 120px;
+}
+
+@media screen and (max-width: 550px) {
+  .platforms {
+    flex-direction: column;
+    align-items: center;
+  }
+}
