@@ -1,0 +1,15 @@
+.events-modal {
+  background: rgb(255, 255, 255, 0.9);
+  position: fixed;
+  height: 50vh;
+  width: 40vw;
+  min-width: 300px;
+  max-width: 480px;
+  bottom: 90px;
+  left: 50px;
+  border-radius: 3%;
+}
+
+.events__modal_icon {
+  
+}

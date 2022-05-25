@@ -1,0 +1,31 @@
+.page {
+  display: grid;
+  /* grid-template-areas: 
+    "header header header header header header header header"
+    ". . . . . . . gallery"
+    ". . . . . . . gallery"
+    ". . . . . . . gallery"
+    ". . . . . . . gallery"; */
+}
+
+
+.page__events-button-wrapper{
+  background: rgb(255, 255, 255, 0.3);
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  height: 80px;
+  width: 80px;
+  bottom: 25px;
+  left: 25px;
+  height: 55px;
+  width: 55px;
+}
+.page__events-button {
+  margin: auto;
+  position: relative;
+  width: 60%;
+  height: 60%;
+
+}
+

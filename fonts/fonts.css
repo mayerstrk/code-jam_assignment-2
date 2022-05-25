@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Anton";
+  src: url("./Anton-Regular.woff") format("woff"),
+    url("./Anton-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "GrapeNuts";
+  src: url("./GrapeNuts-Regular.woff") format("woff"),
+    url("./GrapeNuts-Regular.woff2") format("woff2");
+  font-weight: normal;
+}
+

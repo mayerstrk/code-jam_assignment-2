@@ -1,0 +1,7 @@
+.cover {
+  padding: 60px;
+  background-image: url("../images/tim-mossholder-9Gg_D6eLnC0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 4px solid black;
+}

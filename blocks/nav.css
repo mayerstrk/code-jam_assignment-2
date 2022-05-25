@@ -1,0 +1,33 @@
+.nav {
+  background: transparent;
+}
+
+.nav__items {
+  display: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 15vw;
+  justify-content: center;
+  font-family: Anton;
+  font-size: 20px;
+  
+}
+
+.nav__item {
+  
+  transition: all .4s cubic-bezier(.47,1.64,.41,.8);
+  position: relative;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+.nav__item:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  padding: 0 20px 0;
+}
+
+
+

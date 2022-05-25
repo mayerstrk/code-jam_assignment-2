@@ -1,0 +1,38 @@
+.lead {
+  width: 100%;
+  height: 80vh;
+  background: #ffd1dc;
+  background-image: url("../images/dominik-vanyi-5Fxuo7x-eyg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lead__content{
+  margin: 0;
+  padding: 0;
+  background: rgba(135, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.lead__title-intro {
+
+}
+
+.lead__title {
+  margin: 0;
+  font-family: Anton;
+   -webkit-text-stroke: 2px black; /* width and color */
+  color: #fff;
+  font-size: 75px;
+}
+
+.lead__title_first-letter {
+  color: #000;
+  -webkit-text-stroke: 2px #fff;
+
+}

@@ -1,0 +1,10 @@
+.gallery {
+  grid-area: gallery;
+  display: flex;
+  flex-direction: column;
+  gap: 20vw;
+}
+.gallery__image {
+  width: 30vw;
+  border-radius: 30%;
+}
