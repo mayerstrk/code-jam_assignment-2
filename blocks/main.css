@@ -1,0 +1,29 @@
+.main {
+  width: 94vw;
+  min-height: 400px;
+  background: #fff;
+  margin: auto;
+  margin-top: 3vw;
+  border-radius: 20px;
+  
+
+}
+
+.main__items {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 3vw 6vw 3vw;
+  
+}
+
+.main__item {
+  display: grid;
+  grid-template-areas:
+    "image image description";
+  border-bottom: 2px solid #000;
+  padding: 3vw 0;
+}
+
+.main__item-image {
+  width: 100%;
+}

@@ -6,8 +6,11 @@
   min-width: 300px;
   max-width: 480px;
   bottom: 90px;
-  left: 50px;
+  left: 70px;
   border-radius: 3%;
+  display: grid;
+  grid-gap: 20px;
+  visibility: hidden;
 }
 
 .events__modal_icon {
