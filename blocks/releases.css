@@ -1,5 +1,19 @@
 .releases {
   display: flex;
-  flex-flow: column nowrap;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
   padding: 3vw 6vw 3vw;
+}
+
+.releases__title {
+  margin: auto;
+  padding: 3vw;
+  display: block;
+  transition: all .4s cubic-bezier(.47,1.64,.41,.8);
+  position: relative;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  font-family: Anton;
+  font-size: 45px;
 }

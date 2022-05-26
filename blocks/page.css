@@ -2,13 +2,8 @@
   width: 100%;
   box-sizing: border-box;
   display: grid;
-  /* grid-template-areas: 
-    "header header header header header header header header"
-    ". . . . . . . gallery"
-    ". . . . . . . gallery"
-    ". . . . . . . gallery"
-    ". . . . . . . gallery"; */
   background: #000;
+  padding-bottom: 6vh;
 }
 
 
