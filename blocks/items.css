@@ -7,6 +7,7 @@
 }
 
 .item {
+  box-sizing: border-box;
   margin: 0 auto 0;
   display: grid;
   grid-template-columns: minmax(200px, 300px) auto;
@@ -65,7 +66,7 @@
 
 @media screen and (max-width: 700px) {
   .item {
-    width: 80%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
   }

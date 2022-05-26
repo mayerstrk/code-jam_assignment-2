@@ -1,4 +1,5 @@
 .lead {
+  box-sizing: border-box;
   width: 100%;
   height: 80vh;
   background: #ffd1dc;

@@ -1,4 +1,5 @@
 .cover {
+  box-sizing: border-box;
   padding: 60px;
   background-image: url("../images/tim-mossholder-9Gg_D6eLnC0-unsplash.jpg");
   background-size: cover;
