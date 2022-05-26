@@ -11,8 +11,12 @@
   display: grid;
   grid-template-columns: minmax(200px, 300px) auto;
   border-bottom: 2px solid #000;
-  padding: 3vw 0;
+  padding: 3vh 9vw;
   gap: 3vh;
+}
+
+.item:last-of-type {
+  border: none;
 }
 
 .item__image {
