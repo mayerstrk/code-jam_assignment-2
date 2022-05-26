@@ -1,9 +1,10 @@
 .events-modal {
+  box-sizing: border-box;
+  min-width: 250px;
   background: rgb(255, 255, 255, 0.98);
   position: fixed;
   height: 50vh;
   width: 40vw;
-  min-width: 300px;
   max-width: 480px;
   bottom: 90px;
   left: 70px;
@@ -51,36 +52,38 @@
 }
 
 .events-modal__event-button {
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   background: url("../images/icons/events.svg");
   border: none;
   font-family: Anton;
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 15px;
+  font-size: 14px;
 }
 
 .events-modal__event-button:hover {
   cursor: pointer;
 }
 
-.events-modal__event-button-line {
-  display: block;
-  margin: 0;
-}
+
 
 .events-modal__event-date {
   margin: auto 0 auto 0;;
   font-family: Anton;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .events-modal__event-info {
   margin: 0 0 0 10%;
   font-family: Bizud;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 1000;
 }
 
-
+@media screen and (max-width: 440px) {
+  .events-modal {
+    width: 70%;
+    margin-right: 5px;
+  }
+}
