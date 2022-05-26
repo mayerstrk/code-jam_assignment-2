@@ -8,12 +8,15 @@
   bottom: 90px;
   left: 70px;
   border-radius: 3%;
-  display: grid;
-  grid-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
   opacity: 0;
   visibility: hidden;
   transition: all 0.4s ease-in-out;
   border: 2px solid #000;
+  padding: 0 1.5vh 0;
 }
 
 .events-modal_visible {
@@ -22,9 +25,62 @@
 }
 
 .events-modal__title {
+  font-family: Anton;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  text-rendering: optimizeLegibility;
+  font-weight: 300;
+  width: fit-content;
 
 }
-.events__modal_icon {
-  
+
+.events-modal__events {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
 }
+
+.events-modal__event {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  gap: 15px;
+}
+
+.events-modal__event-button {
+  height: 60px;
+  width: 60px;
+  background: url("../images/icons/events.svg");
+  border: none;
+  font-family: Anton;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.events-modal__event-button:hover {
+  cursor: pointer;
+}
+
+.events-modal__event-button-line {
+  display: block;
+  margin: 0;
+}
+
+.events-modal__event-date {
+  margin: auto 0 auto 0;;
+  font-family: Anton;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.events-modal__event-info {
+  margin: 0 0 0 10%;
+  font-family: Bizud;
+  font-size: 20px;
+  font-weight: 1000;
+}
+
 

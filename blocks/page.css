@@ -22,6 +22,10 @@
   width: 55px;
 }
 
+.page__events-button:hover {
+  cursor: pointer;
+}
+
 .page__events-button-icon {
   margin: auto;
   position: relative;
